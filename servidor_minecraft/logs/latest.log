@@ -1,0 +1,505 @@
+[26Nov2024 00:28:39.167] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.2.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[26Nov2024 00:28:39.172] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.4 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
+[26Nov2024 00:28:40.145] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[26Nov2024 00:28:40.199] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Server/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[26Nov2024 00:28:40.430] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Server/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.2.0/fmlcore-1.20.1-47.2.0.jar is missing mods.toml file
+[26Nov2024 00:28:40.432] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Server/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.2.0/javafmllanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[26Nov2024 00:28:40.433] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Server/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.2.0/lowcodelanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[26Nov2024 00:28:40.435] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Server/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.2.0/mclanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[26Nov2024 00:28:40.566] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
+[26Nov2024 00:28:42.484] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[26Nov2024 00:28:42.522] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[26Nov2024 00:28:43.383] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/PhantomRenderer (java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.PhantomRenderer)
+[26Nov2024 00:28:43.384] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.PhantomRenderer was not found mixins.deeperdarker.json:PhantomRendererMixin
+[26Nov2024 00:28:51.308] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.2.0, for MC 1.20.1 with MCP 20230612.114412
+[26Nov2024 00:28:51.309] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.2.0 Initialized
+[26Nov2024 00:28:57.236] [main/INFO] [evilcraft/]: 2205 possible Broom base combinations are ready for flying!
+[26Nov2024 00:28:58.025] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cyclopscore] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/forge_update/cyclops-core.json
+[26Nov2024 00:28:58.071] [modloading-worker-0/INFO] [evilcraft/]: Registered packet handler.
+[26Nov2024 00:28:58.088] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cyclopscore] Found status: UP_TO_DATE Current: 1.19.5 Target: null
+[26Nov2024 00:28:58.089] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[26Nov2024 00:28:58.213] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: OUTDATED Current: 5.10.1 Target: 5.10.3
+[26Nov2024 00:28:58.213] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [evilcraft] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/forge_update/evilcraft.json
+[26Nov2024 00:28:58.289] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [evilcraft] Found status: OUTDATED Current: 1.2.44 Target: 1.2.48
+[26Nov2024 00:28:58.289] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
+[26Nov2024 00:28:58.300] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: OUTDATED Current: 8.6.0 Target: 8.8.6
+[26Nov2024 00:28:58.301] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [vampirism] Starting version check at https://api.modrinth.com/updates/vampirism/forge_updates.json
+[26Nov2024 00:28:58.553] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [vampirism] Found status: OUTDATED Current: 1.10.7 Target: 1.10.11
+[26Nov2024 00:28:58.553] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[26Nov2024 00:28:58.638] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[26Nov2024 00:28:58.639] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[26Nov2024 00:28:58.639] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
+[26Nov2024 00:28:58.639] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
+[26Nov2024 00:28:58.640] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
+[26Nov2024 00:28:58.640] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
+[26Nov2024 00:28:58.641] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
+[26Nov2024 00:28:58.654] [main/INFO] [journeymap/]: Initializing Packet Registries
+[26Nov2024 00:28:58.688] [main/INFO] [de.teamlapen.vampirism.core.ModEffects/]: Fixing vanilla night vision potion types
+[26Nov2024 00:28:58.695] [main/INFO] [terrablender/]: Registered region vampirism:overworld to index 4 for type OVERWORLD
+[26Nov2024 00:28:58.696] [main/INFO] [de.teamlapen.vampirism.modcompat.terrablender.TerraBlenderCompat/]: TerraBlender is installed. Using it to add vampire Forest to overworld.
+[26Nov2024 00:28:58.711] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.2.0 Target: 47.3.0
+[26Nov2024 00:28:58.711] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ctov] Starting version check at https://api.modrinth.com/updates/fgmhI8kH/forge_updates.json
+[26Nov2024 00:28:58.730] [modloading-worker-0/INFO] [com.choicetheorem.ctov.ctov/]: Got IMC []
+[26Nov2024 00:28:58.735] [modloading-worker-0/INFO] [net.xalcon.torchmaster.Torchmaster/]: Applying mega torch entity block list overrides...
+[26Nov2024 00:28:58.736] [modloading-worker-0/INFO] [net.xalcon.torchmaster.Torchmaster/]: Applying dread lamp entity block list overrides...
+[26Nov2024 00:28:58.736] [main/INFO] [de.teamlapen.vampirism.core.ModEffects/]: Fixing vanilla night vision potion types
+[26Nov2024 00:28:58.737] [main/INFO] [de.teamlapen.vampirism.world.biome.OverworldModifications/]: Vampirism Biomes are added via TerraBlender. Not adding them to overworld preset.
+[26Nov2024 00:28:58.750] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ctov] Found status: OUTDATED Current: 3.3.6 Target: 3.4.10
+[26Nov2024 00:28:58.751] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json
+[26Nov2024 00:28:58.832] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.20.1-47.2.0.jar%23160!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.2.0.jar%23160!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	... 6 more
+[26Nov2024 00:29:02.188] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[26Nov2024 00:29:04.859] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Server/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23159!/assets/.mcassetsroot' uses unexpected schema
+[26Nov2024 00:29:04.860] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Server/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23159!/data/.mcassetsroot' uses unexpected schema
+[26Nov2024 00:29:06.189] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[26Nov2024 00:29:07.068] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/poison as it's serializer returned null
+[26Nov2024 00:29:07.086] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe vampirism:general/umbrella as it's serializer returned null
+[26Nov2024 00:29:07.111] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/frosted as it's serializer returned null
+[26Nov2024 00:29:07.118] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/blindness as it's serializer returned null
+[26Nov2024 00:29:07.119] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/hunger as it's serializer returned null
+[26Nov2024 00:29:07.121] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe vampirism:general/guidebook as it's serializer returned null
+[26Nov2024 00:29:07.122] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/regeneration as it's serializer returned null
+[26Nov2024 00:29:07.124] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/slowness as it's serializer returned null
+[26Nov2024 00:29:07.127] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe vampirism:vampire/blood_bottle as it's serializer returned null
+[26Nov2024 00:29:07.132] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/fire_resistance as it's serializer returned null
+[26Nov2024 00:29:07.134] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/resistance as it's serializer returned null
+[26Nov2024 00:29:07.136] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 16 recipes
+[26Nov2024 00:29:07.364] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2756 advancements
+[26Nov2024 00:29:07.377] [main/INFO] [atomicstryker.dynamiclights.server.ItemLightLevels/]: Clearing item tag to light level mapping cache
+[26Nov2024 00:29:07.386] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 12 curio slots
+[26Nov2024 00:29:07.393] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[26Nov2024 00:29:07.404] [main/INFO] [de.teamlapen.vampirism.entity.player.skills.SkillTree/]: Loaded 53 skill nodes
+[26Nov2024 00:29:07.412] [main/INFO] [de.teamlapen.vampirism.entity.converted.VampirismEntityRegistry/]: Registered 14 convertibles
+[26Nov2024 00:29:07.415] [main/INFO] [twilightforest/]: Loaded 9 Stalactite configs!
+[26Nov2024 00:29:09.753] [main/INFO] [evilcraft/]: 19 Broom modifiers can be applied!
+[26Nov2024 00:29:09.863] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[26Nov2024 00:29:09.863] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[26Nov2024 00:29:09.864] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[26Nov2024 00:29:09.864] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[26Nov2024 00:29:09.952] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[26Nov2024 00:29:09.981] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[26Nov2024 00:29:10.067] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[26Nov2024 00:29:10.068] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[26Nov2024 00:29:10.068] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[26Nov2024 00:29:10.068] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[26Nov2024 00:29:10.085] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[26Nov2024 00:29:10.085] [Thread-1/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[26Nov2024 00:29:10.090] [Thread-1/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[26Nov2024 00:29:10.241] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 torch
+[26Nov2024 00:29:10.242] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 glowstone
+[26Nov2024 00:29:10.242] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser finished, item count: 2
+[26Nov2024 00:29:10.243] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 torch
+[26Nov2024 00:29:10.243] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser finished, item count: 1
+[26Nov2024 00:29:10.243] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 torch
+[26Nov2024 00:29:10.244] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 glowstone
+[26Nov2024 00:29:10.244] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser finished, item count: 2
+[26Nov2024 00:29:10.244] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 torch
+[26Nov2024 00:29:10.244] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser finished, item count: 1
+[26Nov2024 00:29:10.776] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[26Nov2024 00:29:10.777] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[26Nov2024 00:29:10.778] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[26Nov2024 00:29:15.250] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[26Nov2024 00:29:18.579] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Nov2024 00:29:18.592] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Nov2024 00:29:18.600] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Nov2024 00:29:18.609] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Nov2024 00:29:18.613] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Nov2024 00:29:18.620] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Nov2024 00:29:18.629] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Nov2024 00:29:18.752] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Nov2024 00:29:19.252] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Nov2024 00:29:19.751] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 8%
+[26Nov2024 00:29:20.252] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 78%
+[26Nov2024 00:29:20.404] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 5153 ms
+[26Nov2024 00:29:20.404] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (10.325s)! For help, type "help"
+[26Nov2024 00:29:20.448] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[26Nov2024 00:29:20.502] [Server thread/INFO] [cyclopscore/]: Loading infobook /data/cyclopscore/info/test.xml
+[26Nov2024 00:29:20.509] [Server thread/INFO] [evilcraft/]: Loading infobook /data/evilcraft/info/book.xml
+[26Nov2024 00:29:20.543] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:witherer has no valid items
+[26Nov2024 00:29:20.544] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:hungerer has no valid items
+[26Nov2024 00:29:20.544] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:kamikaze has no valid items
+[26Nov2024 00:29:20.544] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:withershield has no valid items
+[26Nov2024 00:34:08.039] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Monoraro[/100.124.235.74:46125] logged in with entity id 617 at (267.9560546239218, 69.9375, 580.427258893378)
+[26Nov2024 00:34:08.101] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Monoraro joined the game
+[26Nov2024 00:36:52.859] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: papasniper[/100.124.249.42:51404] logged in with entity id 1661 at (257.3866732745689, 63.0, 629.1770733637518)
+[26Nov2024 00:36:52.941] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: papasniper joined the game
+[26Nov2024 00:44:16.897] [Server thread/WARN] [de.teamlapen.vampirism.entity.ModEntityEventHandler/]: Could not modify villager zombie attack target task for translation{key='entity.minecraft.zombified_piglin', args=[]}
+[26Nov2024 00:44:35.138] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: papasniper has reached the goal [As Bloody as it Gets]
+[26Nov2024 00:46:05.644] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Monoraro has made the advancement [Spooky Scary Skeleton]
+[26Nov2024 00:50:33.989] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of Monoraro) moved wrongly! 0.42649832178290126
+[26Nov2024 00:50:34.656] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of Monoraro) moved too quickly! 8.880794365377312,6.844744422277273,-13.61283006165047
+[26Nov2024 00:50:34.697] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of Monoraro) moved too quickly! 8.860553678468222,6.9012830990910246,-13.61613686557439
+[26Nov2024 00:50:34.748] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of Monoraro) moved too quickly! 8.8814742801747,7.0,-13.601682897177739
+[26Nov2024 00:50:34.794] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of Monoraro) moved too quickly! 8.901767965448329,6.320833958731981,-13.57320836450765
+[26Nov2024 00:50:34.886] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of Monoraro) moved too quickly! 9.40347470405166,5.6083224030707015,-14.688197673950526
+[26Nov2024 00:50:34.902] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of Monoraro) moved too quickly! 8.945237900666683,4.933216107553136,-13.490873929764348
+[26Nov2024 00:50:34.941] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of Monoraro) moved too quickly! 8.972202154572585,4.30243903325254,-13.44414081745765
+[26Nov2024 00:50:35.037] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of Monoraro) moved too quickly! 9.405111574627142,3.7202614188910985,-14.661932384178272
+[26Nov2024 00:50:35.042] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of Monoraro) moved too quickly! 9.030237831059509,3.184343335354356,-13.363332807652569
+[26Nov2024 00:54:31.735] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Monoraro moved wrongly!
+[26Nov2024 01:01:05.687] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: spm06[/100.79.133.64:60859] logged in with entity id 11784 at (244.76249998807907, 72.0, 599.3086342021937)
+[26Nov2024 01:01:05.717] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: spm06 joined the game
+[26Nov2024 01:04:16.126] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <spm06> hay 12 cabezas de wither, pa invocarlo 4 veces
+[26Nov2024 01:05:07.806] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <spm06> alguno tiene la caja de cazador avanzado?
+[26Nov2024 01:05:16.452] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <spm06> pa poner a hacer corazones
+[26Nov2024 01:05:29.946] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <spm06> voy
+[26Nov2024 01:05:40.535] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <spm06> va pa esa
+[26Nov2024 01:06:17.008] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <spm06> reyes, tienen corazones?
+[26Nov2024 01:06:24.541] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <spm06> 2
+[26Nov2024 01:06:31.632] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[26Nov2024 01:06:34.400] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <spm06> <3
+[26Nov2024 01:07:42.184] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <spm06> no tenemos que poner a hacer corazones?=
+[26Nov2024 01:08:02.310] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <spm06> quien tiene la caja de cazador avanzado?
+[26Nov2024 01:10:27.547] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2073ms or 41 ticks behind
+[26Nov2024 01:11:25.770] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <spm06> mono, no tiene como sueño?
+[26Nov2024 01:11:34.649] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <spm06> pues como pa que duerma hp
+[26Nov2024 01:13:04.472] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <spm06> ahi en los cofres hay
+[26Nov2024 01:13:53.198] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <spm06> bajar a donde?
+[26Nov2024 01:14:54.217] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <spm06> johan, altura?
+[26Nov2024 01:16:56.138] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <spm06> szs
+[26Nov2024 01:20:32.113] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: papasniper has made the advancement [Withering Heights]
+[26Nov2024 01:20:32.114] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Monoraro has made the advancement [Withering Heights]
+[26Nov2024 01:20:32.115] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: spm06 has made the advancement [Withering Heights]
+[26Nov2024 01:20:55.319] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2095ms or 41 ticks behind
+[26Nov2024 01:21:07.169] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Monoraro moved wrongly!
+[26Nov2024 01:21:45.691] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: papasniper has reached the goal [Strong Undead]
+[26Nov2024 01:22:35.137] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Monoraro has reached the goal [Like a bird]
+[26Nov2024 01:24:38.640] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved wrongly! 0.43924169781644196
+[26Nov2024 01:24:38.690] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved wrongly! 0.6548016811627235
+[26Nov2024 01:24:43.210] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Monoraro has reached the goal [Strong Undead]
+[26Nov2024 01:26:59.986] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Monoraro has made the advancement [Back to childhood]
+[26Nov2024 01:26:59.987] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Monoraro has made the advancement [Not even afraid of death]
+[26Nov2024 01:27:38.891] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: papasniper has made the advancement [Your First Receptacle]
+[26Nov2024 01:28:13.989] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Monoraro has reached the goal [A little cleaning is necessary]
+[26Nov2024 01:30:57.736] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Monoraro has reached the goal [Powder Snow Walk]
+[26Nov2024 01:31:24.689] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2015ms or 40 ticks behind
+[26Nov2024 01:31:48.414] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Monoraro has reached the goal [Die Classy]
+[26Nov2024 01:32:59.182] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: spm06 has reached the goal [As Bloody as it Gets]
+[26Nov2024 01:34:29.540] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Monoraro has reached the goal [To be or not to be]
+[26Nov2024 01:35:53.010] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Monoraro has made the advancement [Black or White]
+[26Nov2024 01:36:11.146] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: el_tocayo_22[/100.126.126.82:51900] logged in with entity id 27152 at (247.02490848869533, 71.0, 597.4310751603456)
+[26Nov2024 01:36:11.153] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: el_tocayo_22 joined the game
+[26Nov2024 01:37:49.616] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Monoraro has reached the goal [A Small Cemetery]
+[26Nov2024 01:38:16.636] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: spm06 has made the advancement [Mutual Aid]
+[26Nov2024 01:38:16.637] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: spm06 has reached the goal [The long arm of the law]
+[26Nov2024 01:39:59.756] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: papasniper has reached the goal [Mastery 1]
+[26Nov2024 01:39:59.756] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: papasniper has reached the goal [A Small Cemetery]
+[26Nov2024 01:41:21.735] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: el_tocayo_22 has made the advancement [Back to childhood]
+[26Nov2024 01:41:21.736] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: el_tocayo_22 has made the advancement [Not even afraid of death]
+[26Nov2024 01:41:33.049] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Monoraro has made the advancement [Deliverance]
+[26Nov2024 01:49:24.753] [Server thread/WARN] [tombstone/]: The death event of the player papasniper was canceled by another mod
+[26Nov2024 01:49:24.754] [Server thread/INFO] [tombstone/]: The player papasniper has successfully been saved
+[26Nov2024 01:49:33.235] [Server thread/WARN] [tombstone/]: The death event of the player el_tocayo_22 was canceled by another mod
+[26Nov2024 01:49:33.237] [Server thread/INFO] [tombstone/]: The player el_tocayo_22 has successfully been saved
+[26Nov2024 01:50:06.440] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: el_tocayo_22 is bleeding. el_tocayo_22 burned to ashes
+[26Nov2024 01:50:06.440] [Server thread/WARN] [tombstone/]: The death event of the player el_tocayo_22 was canceled by another mod
+[26Nov2024 01:50:06.441] [Server thread/INFO] [tombstone/]: The player el_tocayo_22 has successfully been saved
+[26Nov2024 01:52:45.589] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: el_tocayo_22 has completed the challenge [Cover Me in Debris]
+[26Nov2024 01:56:26.074] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 9.668793101109507,-2.243477642748246,7.922768282582695
+[26Nov2024 01:56:26.074] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 8.559574777245135,-1.9793163387590056,7.014505829062557
+[26Nov2024 01:56:27.065] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 8.428343398395661,-2.2420858878478356,6.90057865291584
+[26Nov2024 01:56:34.135] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! -8.453113272878682,-0.007037032669472865,-6.106385144001592
+[26Nov2024 01:56:58.288] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 10.741221959503946,-4.084245944596304,7.646597909537107
+[26Nov2024 01:56:58.289] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 9.616458592518939,-3.684768292282598,6.845192906497019
+[26Nov2024 01:56:58.289] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 8.495708290197285,-3.208997925553817,6.046352294103059
+[26Nov2024 01:57:01.306] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of el_tocayo_22) moved too quickly! 11.033355080974388,-2.2842067493845377,1.5963597691479094
+[26Nov2024 01:57:02.362] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved wrongly! 0.3603250354434522
+[26Nov2024 01:57:28.303] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of Monoraro) moved wrongly! 0.5286544258410686
+[26Nov2024 01:57:39.086] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: papasniper has reached the goal [A Metropolis of Restless Souls]
+[26Nov2024 01:57:45.690] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: spm06 has reached the goal [A Metropolis of Restless Souls]
+[26Nov2024 01:57:51.244] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Monoraro moved too quickly! -7.726135534392029,3.352257498593083,-10.22434463090292
+[26Nov2024 01:58:04.391] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: spm06 has made the advancement [Sneak 100]
+[26Nov2024 01:59:52.895] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Monoraro has completed the challenge [Phantom Thief]
+[26Nov2024 01:59:52.896] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Monoraro has completed the challenge [It Spreads]
+[26Nov2024 02:00:35.187] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: spm06 has completed the challenge [Candy Sick]
+[26Nov2024 02:02:54.433] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
+[26Nov2024 02:03:06.749] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: spm06 has completed the challenge [Phantom Thief]
+[26Nov2024 02:03:06.751] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: spm06 has completed the challenge [It Spreads]
+[26Nov2024 02:04:01.390] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: papasniper has completed the challenge [Phantom Thief]
+[26Nov2024 02:06:47.062] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: el_tocayo_22 has completed the challenge [Phantom Thief]
+[26Nov2024 02:06:47.063] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: el_tocayo_22 has completed the challenge [It Spreads]
+[26Nov2024 02:06:58.466] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: papasniper has made the advancement [Below the Bedrock]
+[26Nov2024 02:06:58.566] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: papasniper moved too quickly! 0.901318073003381,72.23819748779329,-0.00253854135391407
+[26Nov2024 02:06:59.048] [Worker-Main-10/WARN] [net.minecraft.world.level.levelgen.heightproviders.UniformHeight/]: Empty height range: [0 above bottom--8 absolute]
+[26Nov2024 02:07:02.869] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: spm06 has made the advancement [Below the Bedrock]
+[26Nov2024 02:07:03.801] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: spm06 moved too quickly! 0.9653536954706397,72.4760408551571,3.6741154681402293
+[26Nov2024 02:07:05.489] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: spm06 moved too quickly! 8.268970373707361,-69.79999995231628,-8.268958154755154
+[26Nov2024 02:07:10.861] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: papasniper moved too quickly! 4.418602124614608,-69.79999995231628,-4.4185899056623725
+[26Nov2024 02:07:16.090] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Monoraro has reached the goal [A Metropolis of Restless Souls]
+[26Nov2024 02:07:17.548] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: papasniper moved too quickly! 5.262233933274388,73.05128727709214,-5.2622369731113
+[26Nov2024 02:07:29.303] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: spm06 moved too quickly! 1.0554586671845527,72.4114349733178,-0.8779127497677734
+[26Nov2024 02:07:31.778] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: spm06 moved too quickly! 7.109431223542856,-69.79999995231628,-7.109419004590677
+[26Nov2024 02:07:36.154] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: spm06 moved too quickly! 1.0091523293253886,71.2953554354525,8.434979392351636
+[26Nov2024 02:07:50.613] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: spm06 moved too quickly! 5.834038288941088,-69.79999995231628,-5.834026069988937
+[26Nov2024 02:08:12.102] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: papasniper has made the advancement [Sculk Cymbal]
+[26Nov2024 02:08:37.484] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Monoraro has made the advancement [Below the Bedrock]
+[26Nov2024 02:08:38.357] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Monoraro moved too quickly! 2.589551007414002,71.12378208014539,-1.319510936778471
+[26Nov2024 02:08:41.601] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: spm06 moved too quickly! 6.030432016170266,72.89306255479076,-6.030435056007121
+[26Nov2024 02:08:43.062] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Monoraro moved too quickly! 7.127310948468676,-69.79999995231628,-7.127298729516525
+[26Nov2024 02:09:10.257] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: spm06 moved too quickly! 4.597538245923033,-69.79999995231628,-4.597526026970797
+[26Nov2024 02:09:13.395] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: papasniper has completed the challenge [It Spreads]
+[26Nov2024 02:12:20.597] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-979, y=39, z=-233} BlockPos{x=-978, y=38, z=-231}
+[26Nov2024 02:12:24.295] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-968, y=37, z=-225} BlockPos{x=-968, y=37, z=-224}
+[26Nov2024 02:12:25.096] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-964, y=37, z=-225} BlockPos{x=-963, y=36, z=-227}
+[26Nov2024 02:12:27.398] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-966, y=37, z=-234} BlockPos{x=-966, y=36, z=-235}
+[26Nov2024 02:13:22.698] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2025ms or 40 ticks behind
+[26Nov2024 02:15:15.159] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: el_tocayo_22 has reached the goal [A Metropolis of Restless Souls]
+[26Nov2024 02:15:31.953] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: spm06 moved too quickly! 0.9649792249300617,73.47950402851944,4.004113103465642
+[26Nov2024 02:15:34.243] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: el_tocayo_22 has made the advancement [Below the Bedrock]
+[26Nov2024 02:15:34.697] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: el_tocayo_22 moved too quickly! 7.629216419368959,71.83969309627241,-7.629219459205871
+[26Nov2024 02:23:53.511] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2037ms or 40 ticks behind
+[26Nov2024 02:24:09.705] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: spm06 has completed the challenge [Echolocation]
+[26Nov2024 02:26:00.441] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-1585, y=85, z=-716} BlockPos{x=-1584, y=84, z=-716}
+[26Nov2024 02:26:02.771] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-1586, y=85, z=-711} BlockPos{x=-1586, y=85, z=-712}
+[26Nov2024 02:26:15.437] [Server thread/WARN] [tombstone/]: The death event of the player Monoraro was canceled by another mod
+[26Nov2024 02:26:15.445] [Server thread/INFO] [tombstone/]: The player Monoraro has successfully been saved
+[26Nov2024 02:27:57.172] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-1606, y=69, z=-717} BlockPos{x=-1606, y=68, z=-718}
+[26Nov2024 02:28:05.522] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-1602, y=66, z=-690} BlockPos{x=-1601, y=66, z=-691}
+[26Nov2024 02:30:30.925] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: spm06 lost connection: Timed out
+[26Nov2024 02:30:30.926] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: spm06 left the game
+[26Nov2024 02:30:40.812] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2689ms or 53 ticks behind
+[26Nov2024 02:30:44.596] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: spm06[/100.79.133.64:61481] logged in with entity id 71623 at (-1177.1115351731094, 47.29430482275446, -376.8178254493056)
+[26Nov2024 02:30:44.611] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: spm06 joined the game
+[26Nov2024 02:32:57.753] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: papasniper has completed the challenge [Echolocation]
+[26Nov2024 02:34:25.774] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2050ms or 41 ticks behind
+[26Nov2024 02:36:18.855] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: el_tocayo_22 has completed the challenge [Echolocation]
+[26Nov2024 02:43:50.292] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 10.06518933465918,-1.2329892867304295,5.932207685624832
+[26Nov2024 02:43:50.293] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 8.781177633976085,-1.0638812426455502,5.175477834548161
+[26Nov2024 02:43:50.991] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 13.213221012504164,-1.727271427731381,7.770745518273117
+[26Nov2024 02:43:50.992] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 13.213221012504164,-1.727271427731381,7.770745518273117
+[26Nov2024 02:43:51.004] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 11.939466045232223,-1.4800581320872936,7.020737620059435
+[26Nov2024 02:43:51.005] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 10.656241572794272,-1.3080240799028502,6.265183274796925
+[26Nov2024 02:43:51.006] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 9.372041109487498,-1.145470158010255,5.509135947429655
+[26Nov2024 02:43:51.389] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! -9.50627747155113,1.1547551837742844,-5.5864168820026805
+[26Nov2024 02:43:52.333] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 26.9354220259699,-3.1314093842713646,15.838448643644682
+[26Nov2024 02:43:52.358] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 26.91726138977981,-2.951601076614736,15.827738254473104
+[26Nov2024 02:43:52.425] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 28.157379661842526,-3.105182377202766,16.556811624191283
+[26Nov2024 02:43:52.459] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 28.13545810921147,-3.1033983204852973,16.54390470179547
+[26Nov2024 02:43:52.560] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 29.378963814022484,-3.2598633103455086,17.274954808745946
+[26Nov2024 02:43:52.561] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 28.097456796098186,-3.1051636391773627,16.521526183491858
+[26Nov2024 02:43:52.616] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 28.078539130107117,-3.109171166666357,16.510388737874422
+[26Nov2024 02:43:52.629] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 8.835995374544893,-1.0939554604866828,5.194802205198869
+[26Nov2024 02:44:05.307] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: papasniper moved too quickly! -15.558935878232603,-1.778398187778265,-9.557161719983327
+[26Nov2024 02:44:05.312] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 29.161712626813028,-0.46210436836642543,18.70640555850646
+[26Nov2024 02:44:05.312] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 27.89703366311528,-0.45711231269459063,17.89042652131911
+[26Nov2024 02:44:05.313] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 26.631833622927047,-0.45272503780319084,17.07517990308083
+[26Nov2024 02:44:05.313] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 25.36621664626216,-0.4479508990135912,16.26059799725551
+[26Nov2024 02:44:05.314] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 24.100221134427215,-0.4449460443142641,15.44663025333189
+[26Nov2024 02:44:05.314] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 22.833876867736763,-0.43874884586108465,14.633230811357247
+[26Nov2024 02:44:05.413] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 22.52678722142059,-0.4485377653713556,14.431140638998823
+[26Nov2024 02:44:05.414] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 21.259823625879562,-0.43547213088032777,13.618754282693654
+[26Nov2024 02:44:05.415] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 19.992585543249902,-0.422539246643737,12.806818464029163
+[26Nov2024 02:44:05.416] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 18.725093780506086,-0.4039181680981301,11.99529985444108
+[26Nov2024 02:44:05.416] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 17.4888294346473,-0.2510316997743871,11.20463159851689
+[26Nov2024 02:44:05.417] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 16.224033229589736,-0.22640508104180412,10.395902525710484
+[26Nov2024 02:44:05.418] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 14.956205509620986,-0.2137775377871094,9.585662238451803
+[26Nov2024 02:44:05.451] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 13.68790993427399,-0.20448472723165878,8.775543576809136
+[26Nov2024 02:44:05.518] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 13.403558968532593,-0.21808374789179652,8.591970757143137
+[26Nov2024 02:44:05.993] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 14.664805969019199,-0.29325244810226536,9.324019935669803
+[26Nov2024 02:44:05.993] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 14.664805969019199,-0.29325244810226536,9.324019935669803
+[26Nov2024 02:44:05.993] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 14.664805969019199,-0.29325244810226536,9.324019935669803
+[26Nov2024 02:44:05.993] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 14.664805969019199,-0.29325244810226536,9.324019935669803
+[26Nov2024 02:44:05.993] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 14.664805969019199,-0.29325244810226536,9.324019935669803
+[26Nov2024 02:44:05.993] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 14.664805969019199,-0.29325244810226536,9.324019935669803
+[26Nov2024 02:44:06.037] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 14.769544401477674,-0.2963459669638553,9.389356219019763
+[26Nov2024 02:44:06.037] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 14.769544401477674,-0.2963459669638553,9.389356219019763
+[26Nov2024 02:44:06.037] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 14.769544401477674,-0.2963459669638553,9.389356219019763
+[26Nov2024 02:44:06.037] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 14.769544401477674,-0.2963459669638553,9.389356219019763
+[26Nov2024 02:44:06.037] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 14.769544401477674,-0.2963459669638553,9.389356219019763
+[26Nov2024 02:44:06.037] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 14.769544401477674,-0.2963459669638553,9.389356219019763
+[26Nov2024 02:44:06.037] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 14.769544401477674,-0.2963459669638553,9.389356219019763
+[26Nov2024 02:44:06.037] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 14.769544401477674,-0.2963459669638553,9.389356219019763
+[26Nov2024 02:44:06.037] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 13.785400758597689,-0.2771059967284373,8.763074988932743
+[26Nov2024 02:44:06.039] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 12.53576995697631,-0.26743946377848715,7.965941485360673
+[26Nov2024 02:44:06.042] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 11.268871047383413,-0.258294533638292,7.1578357602548355
+[26Nov2024 02:44:06.042] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 10.00012506442556,-0.25047242139521586,6.348832919764629
+[26Nov2024 02:44:06.043] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 8.731083302044112,-0.23807390043430132,5.539925369923974
+[26Nov2024 02:44:09.124] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 11.452769625125143,1.589909728484031,8.788173705253556
+[26Nov2024 02:44:09.125] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 10.256595391408041,1.4508291427372342,7.883990640207976
+[26Nov2024 02:44:09.126] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 9.059178917480494,1.3339813602735546,6.97856952661818
+[26Nov2024 02:44:09.924] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 18.522730377550943,-1.74069878752735,13.79391853454419
+[26Nov2024 02:44:09.924] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 18.522730377550943,-1.74069878752735,13.79391853454419
+[26Nov2024 02:44:09.924] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 18.522730377550943,-1.74069878752735,13.79391853454419
+[26Nov2024 02:44:09.924] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 17.329182415950413,-1.6742748591379382,12.899217546985923
+[26Nov2024 02:44:09.964] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 17.302703171910935,-1.6485456620375203,12.884475785945199
+[26Nov2024 02:44:10.023] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 17.27774282912037,-1.6200881673635195,12.8707073467192
+[26Nov2024 02:44:10.062] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 17.254789190737142,-1.5895148395512138,12.858100531090997
+[26Nov2024 02:44:10.116] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 17.243230498804337,-1.5755839555764055,12.851074159567418
+[26Nov2024 02:44:10.259] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 19.593346961724137,-1.7329688882194887,14.615388641534764
+[26Nov2024 02:44:10.260] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 18.39340737456746,-1.6156219188667933,13.718515552062968
+[26Nov2024 02:44:10.276] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 17.192828486051667,-1.4927897824688898,12.82143568537876
+[26Nov2024 02:44:10.339] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 17.180828028422525,-1.4762092254596269,12.81307643016605
+[26Nov2024 02:44:10.366] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 15.981255526558357,-1.3456780062056453,11.916601538494888
+[26Nov2024 02:44:10.420] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 15.970346860583732,-1.273386126818508,11.908679950211322
+[26Nov2024 02:44:10.457] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 14.771269356690823,-1.1637260017734263,11.011984854714186
+[26Nov2024 02:44:10.534] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 15.937439892886687,-1.254088346233715,11.888320036888743
+[26Nov2024 02:44:10.646] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 18.291804556327406,-1.4749857253351308,13.653690875393096
+[26Nov2024 02:44:10.678] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 18.27468580102004,-1.4831280501265667,13.642678065651353
+[26Nov2024 02:44:10.678] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 17.082324421202657,-1.39701223317536,12.748300084807852
+[26Nov2024 02:44:10.704] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 17.06674766088554,-1.4094192042150553,12.738104224291973
+[26Nov2024 02:44:10.770] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 17.0518988032876,-1.4198020499944164,12.728500291720692
+[26Nov2024 02:44:10.820] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 17.04401322890169,-1.4389062798686325,12.722373982211806
+[26Nov2024 02:44:10.862] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 17.031998627858343,-1.4485296613428602,12.714524792292849
+[26Nov2024 02:44:10.971] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 18.21032554334863,-1.576933327086607,13.598829635786998
+[26Nov2024 02:44:10.972] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 17.01292801576915,-1.4692496119726002,12.701440918354109
+[26Nov2024 02:44:11.008] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 17.0047889870292,-1.4791383071822963,12.695852513708445
+[26Nov2024 02:44:11.114] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 18.183218472701242,-1.6012231054158121,13.580696767520692
+[26Nov2024 02:44:11.115] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 16.986039751935664,-1.484935402872793,12.683163485474779
+[26Nov2024 02:44:11.157] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 16.975317063790726,-1.4819623973729676,12.675944857512036
+[26Nov2024 02:44:11.207] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 30.748514148448862,-2.556873751555372,23.070687824909314
+[26Nov2024 02:44:11.207] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 30.748514148448862,-2.556873751555372,23.070687824909314
+[26Nov2024 02:44:11.207] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 30.748514148448862,-2.556873751555372,23.070687824909314
+[26Nov2024 02:44:11.207] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 30.748514148448862,-2.556873751555372,23.070687824909314
+[26Nov2024 02:44:11.207] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 29.574081869478277,-2.492554424028384,22.187562056703158
+[26Nov2024 02:44:11.208] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 28.379315985847825,-2.3774232045210226,21.291374340605188
+[26Nov2024 02:44:11.263] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 28.370666801154584,-2.3733728429773464,21.285234627237912
+[26Nov2024 02:44:11.310] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 30.774225759015735,-2.6604708178433327,23.08739087686648
+[26Nov2024 02:44:11.311] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 29.595834111184104,-2.587262508686024,22.202176369833268
+[26Nov2024 02:44:11.313] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 28.401268124726244,-2.4686187448249086,21.30545184564869
+[26Nov2024 02:44:11.362] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 28.394219784261736,-2.463969449182912,21.300435724787036
+[26Nov2024 02:44:11.420] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 28.389405027886937,-2.4652882110922576,21.297056055743752
+[26Nov2024 02:44:11.466] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 28.383600878288235,-2.464237442133367,21.29294026336484
+[26Nov2024 02:44:11.567] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 34.358739074791174,-3.1453852864652276,25.783107068745082
+[26Nov2024 02:44:11.568] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 33.165674327194665,-3.0210561489450924,24.886366557460846
+[26Nov2024 02:44:11.568] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 31.971995247886866,-2.890773561960998,23.988781023391695
+[26Nov2024 02:44:11.606] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 31.965815891999227,-2.8968994966978983,23.984330907916743
+[26Nov2024 02:44:11.666] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 33.19050864380665,-3.171000684076887,24.911736252514743
+[26Nov2024 02:44:11.666] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 33.19050864380665,-3.171000684076887,24.911736252514743
+[26Nov2024 02:44:11.667] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 33.19050864380665,-3.171000684076887,24.911736252514743
+[26Nov2024 02:44:11.667] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 32.01005691395983,-3.0810356629700664,24.026674605803706
+[26Nov2024 02:44:11.667] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 32.01005691395983,-3.0810356629700664,24.026674605803706
+[26Nov2024 02:44:11.667] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 30.828138958708905,-2.9883376871789835,23.140781517985744
+[26Nov2024 02:44:11.667] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 30.828138958708905,-2.9883376871789835,23.140781517985744
+[26Nov2024 02:44:11.667] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 28.46250457311612,-2.7956647239233234,21.36738439134814
+[26Nov2024 02:44:11.668] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 24.915980765523727,-2.4915082082517586,18.70799908420406
+[26Nov2024 02:44:11.668] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 23.734755683913477,-2.3867128681506813,17.822080151544327
+[26Nov2024 02:44:11.668] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 23.734755683913477,-2.3867128681506813,17.822080151544327
+[26Nov2024 02:44:11.668] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 22.55233782263656,-2.280279576208102,16.935192609316843
+[26Nov2024 02:44:11.708] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 22.546092391422007,-2.2502191152361206,16.93114199291726
+[26Nov2024 02:44:11.709] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 21.35420273055786,-2.1013960830736664,16.034177019582827
+[26Nov2024 02:44:11.816] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 22.531997818136915,-2.2577977459092153,16.921557025883416
+[26Nov2024 02:44:11.817] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 21.341262399369953,-2.1102440129913873,16.025059831270525
+[26Nov2024 02:44:11.869] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 21.33414620664462,-2.1170122370080264,16.019837310204963
+[26Nov2024 02:44:11.914] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 21.327595814090955,-2.1269548246370675,16.01502739090074
+[26Nov2024 02:44:12.007] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 28.47189442953777,-3.0881631435828467,21.396710678684002
+[26Nov2024 02:44:12.007] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 27.28731494278918,-2.978801252957993,20.508069483084057
+[26Nov2024 02:44:12.008] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 26.101785313068376,-2.8681349422589903,19.61865674371772
+[26Nov2024 02:44:12.008] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 24.912903906330598,-2.7227808238347677,18.723381172567443
+[26Nov2024 02:44:12.009] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 23.729917486046702,-2.6434333151780436,17.83906533906307
+[26Nov2024 02:44:12.009] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 23.729917486046702,-2.6434333151780436,17.83906533906307
+[26Nov2024 02:44:12.009] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 22.543751278440936,-2.529575015127506,16.949023556685944
+[26Nov2024 02:44:12.047] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 22.538632379579667,-2.5496961066896233,16.94563328580874
+[26Nov2024 02:44:12.090] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 21.354161771140525,-2.4625254744879896,16.06006878016977
+[26Nov2024 02:44:12.090] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 21.354161771140525,-2.4625254744879896,16.06006878016977
+[26Nov2024 02:44:12.090] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 20.167529616511388,-2.3461404825247314,15.169557267998698
+[26Nov2024 02:44:12.090] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 18.98014103734988,-2.2289742136586597,14.278444150627607
+[26Nov2024 02:44:12.091] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 18.98014103734988,-2.2289742136586597,14.278444150627607
+[26Nov2024 02:44:12.091] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 18.98014103734988,-2.2289742136586597,14.278444150627607
+[26Nov2024 02:44:12.091] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 18.98014103734988,-2.2289742136586597,14.278444150627607
+[26Nov2024 02:44:12.091] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 18.98014103734988,-2.2289742136586597,14.278444150627607
+[26Nov2024 02:44:12.091] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 18.98014103734988,-2.2289742136586597,14.278444150627607
+[26Nov2024 02:44:12.091] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 17.792042518244784,-2.1110832418467567,13.38676634982609
+[26Nov2024 02:44:12.091] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 16.603492695705313,-1.992127517116188,12.494392538587775
+[26Nov2024 02:44:12.091] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 16.603492695705313,-1.992127517116188,12.494392538587775
+[26Nov2024 02:44:12.092] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 16.603492695705313,-1.992127517116188,12.494392538587775
+[26Nov2024 02:44:12.092] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 15.41464158834708,-1.8713585305134472,11.601428780490153
+[26Nov2024 02:44:12.092] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 14.225669041813717,-1.7476456883985065,10.708033825566076
+[26Nov2024 02:44:12.092] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 13.037219553653017,-1.649563942571234,9.812694082413273
+[26Nov2024 02:44:12.141] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 13.032552043131432,-1.6342121935856255,9.809176355097591
+[26Nov2024 02:44:12.221] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 16.585188550051953,-2.1248492332813953,12.488984984869887
+[26Nov2024 02:44:12.224] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 15.397398893863397,-1.9326344033271141,11.593918002193561
+[26Nov2024 02:44:12.262] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 15.391730515271092,-1.9086528521326898,11.589747442388571
+[26Nov2024 02:44:12.298] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 15.386350089753591,-1.8854489238223948,11.585764743389191
+[26Nov2024 02:44:12.338] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 17.75465192991237,-2.3817658358602216,13.375435752021914
+[26Nov2024 02:44:12.338] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 17.75465192991237,-2.3817658358602216,13.375435752021914
+[26Nov2024 02:44:12.338] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 17.75465192991237,-2.3817658358602216,13.375435752021914
+[26Nov2024 02:44:12.338] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 16.56761683312868,-2.244732433366579,12.482373665814663
+[26Nov2024 02:44:12.338] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 15.380628537134271,-2.10410978279441,11.589116448673309
+[26Nov2024 02:44:12.338] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 15.380628537134271,-2.10410978279441,11.589116448673309
+[26Nov2024 02:44:12.339] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 15.380628537134271,-2.10410978279441,11.589116448673309
+[26Nov2024 02:44:12.339] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 15.380628537134271,-2.10410978279441,11.589116448673309
+[26Nov2024 02:44:12.339] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 15.380628537134271,-2.10410978279441,11.589116448673309
+[26Nov2024 02:44:12.339] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 15.380628537134271,-2.10410978279441,11.589116448673309
+[26Nov2024 02:44:12.339] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 15.380628537134271,-2.10410978279441,11.589116448673309
+[26Nov2024 02:44:12.339] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 15.380628537134271,-2.10410978279441,11.589116448673309
+[26Nov2024 02:44:12.339] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 15.380628537134271,-2.10410978279441,11.589116448673309
+[26Nov2024 02:44:12.339] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 15.380628537134271,-2.10410978279441,11.589116448673309
+[26Nov2024 02:44:12.339] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 15.380628537134271,-2.10410978279441,11.589116448673309
+[26Nov2024 02:44:12.339] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 15.380628537134271,-2.10410978279441,11.589116448673309
+[26Nov2024 02:44:12.340] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 14.193333674135602,-1.914191617750106,10.694075748796735
+[26Nov2024 02:44:12.384] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 14.188519829542088,-1.9001621631145156,10.689208409062715
+[26Nov2024 02:44:12.427] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 16.56125344781617,-2.3030161684708617,12.482520203533042
+[26Nov2024 02:44:12.428] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 16.56125344781617,-2.3030161684708617,12.482520203533042
+[26Nov2024 02:44:12.428] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 15.374204791555144,-2.1254523501298195,11.583301812083818
+[26Nov2024 02:44:12.520] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 16.552933694124363,-2.2812511226075287,12.474372952560273
+[26Nov2024 02:44:12.520] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 16.557488289233333,-2.321323091646235,12.494335128012139
+[26Nov2024 02:44:12.520] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 16.557488289233333,-2.321323091646235,12.494335128012139
+[26Nov2024 02:44:12.520] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 15.374321997104516,-2.1668429511915406,11.603194927307612
+[26Nov2024 02:44:12.521] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 14.191087985751665,-2.009182378187404,10.711848184681173
+[26Nov2024 02:44:12.521] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 13.00778775118556,-1.8485745840494587,9.820307956148383
+[26Nov2024 02:44:12.521] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 13.00778775118556,-1.8485745840494587,9.820307956148383
+[26Nov2024 02:44:12.521] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 13.00778775118556,-1.8485745840494587,9.820307956148383
+[26Nov2024 02:44:12.521] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 13.00778775118556,-1.8485745840494587,9.820307956148383
+[26Nov2024 02:44:12.521] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 13.00778775118556,-1.8485745840494587,9.820307956148383
+[26Nov2024 02:44:12.521] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 13.00778775118556,-1.8485745840494587,9.820307956148383
+[26Nov2024 02:44:12.522] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 13.00778775118556,-1.8485745840494587,9.820307956148383
+[26Nov2024 02:44:12.522] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 11.824435342843344,-1.6852392526665767,8.928595331320125
+[26Nov2024 02:44:12.522] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 11.824435342843344,-1.6852392526665767,8.928595331320125
+[26Nov2024 02:44:12.522] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 11.824435342843344,-1.6852392526665767,8.928595331320125
+[26Nov2024 02:44:12.522] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 11.824435342843344,-1.6852392526665767,8.928595331320125
+[26Nov2024 02:44:12.522] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 11.824435342843344,-1.6852392526665767,8.928595331320125
+[26Nov2024 02:44:12.522] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 11.824435342843344,-1.6852392526665767,8.928595331320125
+[26Nov2024 02:44:12.522] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 11.824435342843344,-1.6852392526665767,8.928595331320125
+[26Nov2024 02:44:12.522] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 11.824435342843344,-1.6852392526665767,8.928595331320125
+[26Nov2024 02:44:12.522] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 11.824435342843344,-1.6852392526665767,8.928595331320125
+[26Nov2024 02:44:12.523] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 11.824435342843344,-1.6852392526665767,8.928595331320125
+[26Nov2024 02:44:12.523] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 11.824435342843344,-1.6852392526665767,8.928595331320125
+[26Nov2024 02:44:12.523] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 11.824435342843344,-1.6852392526665767,8.928595331320125
+[26Nov2024 02:44:12.523] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 11.824435342843344,-1.6852392526665767,8.928595331320125
+[26Nov2024 02:44:12.523] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 11.824435342843344,-1.6852392526665767,8.928595331320125
+[26Nov2024 02:44:12.523] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 11.824435342843344,-1.6852392526665767,8.928595331320125
+[26Nov2024 02:44:12.523] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 11.824435342843344,-1.6852392526665767,8.928595331320125
+[26Nov2024 02:44:12.524] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 11.824435342843344,-1.6852392526665767,8.928595331320125
+[26Nov2024 02:44:12.524] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 10.641043767415681,-1.5193799444284934,8.036730035273223
+[26Nov2024 02:44:12.524] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved too quickly! 8.275904652683266,-1.1810773959994378,6.253905679633121
+[26Nov2024 02:44:19.099] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved wrongly! 0.3591863785665055
+[26Nov2024 02:44:23.313] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of spm06) moved wrongly! 0.6411400138338195
+[26Nov2024 02:44:59.983] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
+[26Nov2024 02:45:31.908] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-919, y=-50, z=-148} BlockPos{x=-918, y=-50, z=-151}
+[26Nov2024 02:51:11.605] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: el_tocayo_22 lost connection: Disconnected
+[26Nov2024 02:51:11.606] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: el_tocayo_22 left the game
+[26Nov2024 02:55:26.185] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: papasniper lost connection: Disconnected
+[26Nov2024 02:55:26.186] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: papasniper left the game
+[26Nov2024 02:55:28.136] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: spm06 lost connection: Disconnected
+[26Nov2024 02:55:28.136] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: spm06 left the game
+[26Nov2024 02:55:36.627] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Monoraro lost connection: Disconnected
+[26Nov2024 02:55:36.627] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Monoraro left the game
+[26Nov2024 02:55:44.425] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[26Nov2024 02:55:44.477] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[26Nov2024 02:55:44.478] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[26Nov2024 02:55:44.478] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[26Nov2024 02:55:44.528] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[26Nov2024 02:55:45.072] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/twilightforest:twilight_forest
+[26Nov2024 02:55:45.073] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[26Nov2024 02:55:45.081] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[26Nov2024 02:55:45.089] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/deeperdarker:otherside
+[26Nov2024 02:55:45.122] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[26Nov2024 02:55:45.122] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (twilight_forest): All chunks are saved
+[26Nov2024 02:55:45.123] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[26Nov2024 02:55:45.123] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[26Nov2024 02:55:45.123] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (otherside): All chunks are saved
+[26Nov2024 02:55:45.123] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[26Nov2024 02:55:45.822] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
